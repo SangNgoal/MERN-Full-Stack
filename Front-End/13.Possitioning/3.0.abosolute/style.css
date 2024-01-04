@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* position: relative; */
+}
+
+.child{
+    background-color: rgb(255, 0, 0);
+    width: 150px;
+    height: 150px;
+
+    
+
+}
+
+.child2 {
+
+
+    background-color: green;
+
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+
+
+
+}
+
+.container {
+
+    border: 1px solid black;
+    width: 500px;
+   position: relative;
+}

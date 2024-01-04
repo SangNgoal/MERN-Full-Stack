@@ -1,0 +1,25 @@
+/* h1:hover{
+
+    color: red;
+    text-decoration: underline;
+    font-size: xx-large;
+} */
+
+/* above is for whole h1 it self. */
+
+h3::first-letter{
+
+    color: red;
+    font-size: xx-large;
+    letter-spacing: 20px;
+}
+
+
+.container p::first-letter{
+
+    color: blueviolet;
+    font-size: xx-large;
+    
+}
+
+/* can only applied block level element */

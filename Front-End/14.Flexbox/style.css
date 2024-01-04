@@ -1,0 +1,51 @@
+.container {
+    height: 300px;
+    width: 700px;
+    border: 2px solid #ff0000b7;
+    border-radius: 1rem;
+
+    /* using Flexbox */
+    display: flex;
+    /* flex direction
+    
+    flex direction has 4 properties: row, row-reverse, column, column reverse.
+    */
+/* 
+    flex-direction: column;
+    flex-direction:column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse; */
+
+
+    flex-direction: row;
+
+    /* justify content following the flow of main axis*/
+    justify-content: center;
+    /* align-items is following the flow of cross axis */
+    align-items:center ;
+ /
+    
+    
+
+}
+
+.child-1 {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+}
+
+.child-2 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 255, 128);
+    color: white;
+}
+
+.child-3 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 5);
+    color: white;
+}
